@@ -32,8 +32,8 @@ management:
       exposure:
         include: '*'
 
-  jwt:
-    expire-time:
-      access-token: 900000
-      refresh-token: 2592000000
+jwt:
+  expire-time:
+    access-token: 900000
+    refresh-token: 2592000000
     
